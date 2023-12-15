@@ -20,7 +20,7 @@
 }
 
 .banner-cont{
-    background: url(/assets/images/bg.png);
+    background: url("./assets/images/bg.png");
     width: 100%;
     /* background-size: cover; */
     /* background-position: top-left; */
