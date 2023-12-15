@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="/assets/css/"> -->
+</head>
+<body id="body">
+
+    <div class="main-wrapper">
+        <div class="wrapper">
+            <div class="header-content" id="header">
+                <div class="logo-navlinks-cont">
+                    <div class="logo">
+                        <h1>AIZone<span>.ai</span></h1>
+                    </div>
+                    <div class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#articles">Articles</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="">Contact</a></li>
+                    </div>
+                </div>
+                <div class="login-searchbar-cont">
+                    <!-- <div class="searchbar">
+                        <input id="searchbar" type="text" placeholder="Search article...">
+                        <div id="searchBtn" class="search-icon" onclick="searchBar()">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </div>
+                    </div> -->
+                    <div class="LoginBtn"><a href="login.html">Login</a></div>
+                    <div class="menu-bar" onclick="showMenu()">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <!-- mobile navlinks -->
+            <div class="mobile-navlinks-cont" id="mobile-navlinks-cont">
+                <div class="mobile-navlink" id="mobile-navlink">
+                    <div class="close-menu-icon" onclick="closeMenu()">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </div>
+                    <div class="navlinks">
+                        <li onclick="closeMenu()"><a href="#">Home</a></li>
+                        <li onclick="closeMenu()"><a href="#articles">Articles</a></li>
+                        <li onclick="closeMenu()"><a href="#blog">Blog</a></li>
+                        <li onclick="closeMenu()"><a href="#pricing">Services</a></li>
+                        <li onclick="closeMenu()"><a href="">Contact</a></li>
+                    </div>
+                    <div class="navlinks-footer">
+                        <div class="logo">
+                            <h1>AIZone<span>.ai</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- banner -->
+            <div class="banner-cont">
+                <div class="banner-details">
+                    <h1>Empowering the Future with AI Graphic Generation</h1>
+                    <p>Unlock the potential with an Active OpenAI Token for Image Generation</p>
+                    <button onclick="window.location.replace('demo.html')">Try demo now</button>   
+                </div>
+            </div>
+
+            <!-- articles -->
+            <div class="article-cont" id="articles">
+                <div class="article-header">
+                    <small>Latest Post</small>
+                    <h1>Article & News</h1>
+                </div>
+                <div class="article-post-holder">
+                    <div class="left-img">
+                        <img src="/assets/images/post1.png" alt="">
+                        <div class="left-post-description">
+                            <small><ion-icon name="albums-outline"></ion-icon> Image Title</small>
+                            <h5>Efficiency Enhancement</h5>
+                        </div>
+                    </div>
+                    <div class="right-img">
+                        <div class="post-img">
+                            <img src="/assets/images/postS1.png" alt="">
+                            <div class="left-post-description">
+                                <small><ion-icon name="albums-outline"></ion-icon> Image Title</small>
+                                <h5>Smart Decision-Making</h5>
+                            </div>
+                        </div>
+                        <div class="post-img">
+                            <img src="/assets/images/postS2.png" alt="">
+                            <div class="left-post-description">
+                                <small><ion-icon name="albums-outline"></ion-icon> Image Title</small>
+                                <h5>Personalized Experiences</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- blogs -->
+            <div class="blog-cont" id="blog">
+                <div class="blog-header">
+                    <small>Latest blog post</small>
+                    <h1>Our Blogs</h1>
+                </div>
+                <div class="blog-post-cont">
+                    <!-- image below is temporary -->
+                    <div class="blog-img">
+                        <img src="/assets/images/blog-img.png" alt="">
+                        <div class="blog-img-text">Tutorials and How-Tos</div>
+                    </div>
+                    <div class="blog-img">
+                        <img src="/assets/images/blog-img1.png" alt="">
+                        <div class="blog-img-text">Case Studies</div>
+                    </div>
+                    <div class="blog-img">
+                        <img src="/assets/images/blog-img2.png" alt="">
+                        <div class="blog-img-text">Feauture Updates</div>
+                    </div>
+                    <div class="blog-img">
+                        <img src="/assets/images/blog-img3.png" alt="">
+                        <div class="blog-img-text">Behind the Scense</div>
+                    </div>
+                    <div class="blog-img">
+                        <img src="/assets/images/blog-img4.png" alt="">
+                        <div class="blog-img-text">Design Trends</div>
+                    </div>
+                    <div class="blog-img">
+                        <img src="/assets/images/blog-img5.png" alt="">
+                        <div class="blog-img-text">User Showcases</div>
+                    </div>
+                    <div class="blog-img">
+                        <img src="/assets/images/blog-img6.png" alt="">
+                        <div class="blog-img-text">Reviews</div>
+                    </div>
+                    <div class="blog-img">
+                        <img src="/assets/images/blog-img7.png" alt="">
+                        <div class="blog-img-text">Tips and Tricks</div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- popupvideo -->
+            <div class="popup-video-cont" id="popup-video-cont">
+                <div class="close-popupvid" onclick="closePopup()">
+                    <ion-icon name="close-outline"></ion-icon>
+                </div>
+                <div class="video-container" id="video-container"></div>
+            </div>
+            <!-- popupvideo -->
+
+
+            <!-- services -->
+            <div class="pricing-cont" id="pricing">
+                <div class="pricing-header">
+                    <small>Best plan for you</small>
+                    <h1>Pricing Plans</h1>
+                </div>
+                <div class="pricing-content">
+                    <div class="pricing-demo-video">
+                        <img src="/assets/images/price-bg.png" alt="">
+                        <div class="play-button-overlay" onclick="showPopupVid()">
+                            <ion-icon name="play-circle-outline"></ion-icon>
+                        </div>
+                    </div>
+                   <div class="price-flex">
+                    <div class="pricing-choice">
+                        <div class="price">
+                            <div class="price-header">
+                                <h1>Free</h1>
+                                <h3>USD $0/ month</h3>
+                                <label>For user just getting started with AiZone</label>
+                            </div>
+                            <div class="price-benef">
+                                <div class="benef">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <p>Unlimited message, interactions and history</p>
+                                </div>
+                                <div class="benef">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <p>Access to our AiZone 3.5 model</p>
+                                </div>
+                                <div class="benef">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <p>Access on Web, iOS, and Android</p>
+                                </div>
+                                <div class="benef">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <p>Unlimited Graphic</p>
+                                </div>
+                            </div>
+                            <button disabled type="Your current plan">Your current plan</button>
+                        </div>
+                    </div>
+                    <!-- plan2 -->
+                    <div class="pricing-choice">
+                        <div class="price">
+                            <div class="price-header">
+                                <h1>Plus</h1>
+                                <h3>USD $20/ month</h3>
+                                <label>Free all feature AiZone</label>
+                            </div>
+                            <div class="price-benef">
+                                
+                                <div class="benef">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <p>Unlimited message, interactions and history</p>
+                                </div>
+                                <div class="benef">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <p>Access to our AiZone 4 most capable model</p>
+                                </div>
+                                <div class="benef">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <p>Access on Web, iOS, Android, Advance data Analysis and more</p>
+                                </div>
+                                <div class="benef">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <p>Unlimited Graphic</p>
+                                </div>
+                            </div>
+                            <button class="plus" type="Your current plan">Upgrade to Plus</button>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>    
+
+
+            <footer>
+                <div class="terms-privacy">
+                    <span><a href="">Terms of use</a></span>
+                    |
+                    <span><a href="">Privacy policy</a></span>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+</body>
+<script src="/assets/js/header.js"></script>
+<script src="/assets/js/video.js"></script>
+<!-- ion icons -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
